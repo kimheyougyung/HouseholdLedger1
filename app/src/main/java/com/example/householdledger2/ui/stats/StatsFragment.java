@@ -1,4 +1,4 @@
-package com.example.householdledger2.ui.slideshow;
+package com.example.householdledger2.ui.stats;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.householdledger2.R;
 
-public class SlideshowFragment extends Fragment {
+public class StatsFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    private StatsViewModel statsviewmodel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
-        slideshowViewModel.getText().observe(this, new Observer<String>() {
+        statsviewmodel =
+                ViewModelProviders.of(this).get(StatsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_stats, container, false);
+        final TextView textView = root.findViewById(R.id.text_stats);
+        statsviewmodel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

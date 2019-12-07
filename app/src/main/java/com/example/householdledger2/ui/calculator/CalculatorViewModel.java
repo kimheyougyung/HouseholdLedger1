@@ -1,16 +1,16 @@
-package com.example.householdledger2.ui.slideshow;
+package com.example.householdledger2.ui.calculator;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class CalculatorViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public CalculatorViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is calculator fragment");
     }
 
     public LiveData<String> getText() {

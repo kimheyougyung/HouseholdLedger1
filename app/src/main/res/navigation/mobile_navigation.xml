@@ -12,16 +12,18 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.householdledger2.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_calculator"
+        android:name="com.example.householdledger2.ui.calculator.CalculatorFragment"
         android:label="@string/menu_calculator"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_calculator" />
 
+
+<!--     통계-->
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.householdledger2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_stats"
+        android:name="com.example.householdledger2.ui.stats.StatsFragment"
+        android:label="@string/menu_stats"
+        tools:layout="@layout/fragment_stats" />
 
     <fragment
         android:id="@+id/nav_tools"

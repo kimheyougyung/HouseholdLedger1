@@ -13,13 +13,10 @@
             android:icon="@drawable/ic_iso_black_24dp"
             android:title="@string/menu_calculator" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_menu_pie"
+            android:title="@string/menu_stats" />
+
     </group>
 
     <item android:title="기타">
