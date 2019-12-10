@@ -5,8 +5,10 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+<!--    액션바-->
     <fragment
         android:id="@+id/nav_home"
+        android:label=" "
         android:name="com.example.householdledger2.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" />
 
