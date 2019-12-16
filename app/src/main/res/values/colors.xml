@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F3C3C</color>
     <color name="colorPrimaryDark">#312F2F</color>
     <color name="colorAccent">#312F2F</color>
+<!-- fab 플로팅액션버튼 네임   -->
+    <color name="fab1_color">#4caf50</color>
+    <color name="fab2_color">#2196f3</color>
 </resources>
